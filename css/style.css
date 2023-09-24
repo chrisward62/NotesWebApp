@@ -1,0 +1,71 @@
+body{
+    background-color:rgb(65, 209, 161);
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Take full viewport height */
+}
+
+.container {
+    text-align: center; /* Center-align the content within the container */
+}
+
+#login-button {
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding for better appearance */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+#signup-button {
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding for better appearance */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Style the button on hover */
+#login-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+h1 {
+    color: rgb(164, 163, 214);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 36px;
+}
+
+#signup-link {
+    margin-top: 10px; /* Adjust the margin to control spacing between buttons */
+    display: inline-block; /* Place the link next to the form */
+    padding: 10px 20px; /* Padding for better appearance */
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove default link underline */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Style the link on hover */
+#signup-link:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+#login-link {
+    margin-top: 10px; /* Adjust the margin to control spacing between buttons */
+    display: inline-block; /* Place the link next to the form */
+    padding: 10px 20px; /* Padding for better appearance */
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove default link underline */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Style the link on hover */
+#login-link:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
